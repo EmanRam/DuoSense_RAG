@@ -54,7 +54,7 @@ Under the hood, DouSense uses **OpenAI CLIP** to embed text and images into the 
 │                                    └────────┬────────┘      │
 │                                             │               │
 │  ┌──────────┐    ┌──────────────────────────▼────────────┐  │
-│  │  Query   │───▶│        MultimodalRetriever            │ │
+│  │  Query   │──▶│        MultimodalRetriever            │  │
 │  │  Input   │    │  (embed query → top-K similarity)     │  │
 │  └──────────┘    └──────────────────────────┬────────────┘  │
 │                                             │               │
